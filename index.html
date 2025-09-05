@@ -2,38 +2,90 @@
 <html>
 <head>
   <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h3 id="question"></h3>
-  <ul id="options"></ul>
+  <h2 id="question"></h2>
+  <form id="quizForm">
+    <div id="options"></div>
+  </form>
+
   <button onclick="getQuestion()">Get Random Question</button>
-  <button onclick="showBrief()">Show Brief</button>
-  <button onclick="showDetailed()">Show Detailed</button>
+  <button id="submitBtn" onclick="submitAnswer()" disabled>Submit Answer</button>
+
+  <p id="result"></p>
+
+  <!-- New buttons -->
+  <button id="briefBtn" onclick="showBrief()" disabled>Show Brief</button>
+  <button id="detailedBtn" onclick="showDetailed()" disabled>Show Detailed</button>
+
   <p id="brief"></p>
   <p id="detailed"></p>
+
   <script>
     let currIndex = 0;
+
     async function getQuestion() {
       let res = await fetch('/random_question');
       let q = await res.json();
-      document.getElementById('question').innerText = q.question;
-      let options = "";
-      q.options.forEach((o, i) => { options += `<li>${o}</li>`; });
-      document.getElementById('options').innerHTML = options;
-      document.getElementById('brief').innerText = "";
-      document.getElementById('detailed').innerText = "";
-      // Save index if you want to map to the question
-      currIndex = questions.findIndex(ques => ques.question === q.question);
+
+      document.getElementById("question").innerText = q.question;
+
+      // render options with radio buttons
+      let optionsHTML = "";
+      q.options.forEach((opt, i) => {
+        let letter = String.fromCharCode(65 + i); // A,B,C,D
+        optionsHTML += `
+          <label>
+            <input type="radio" name="option" value="${letter}">
+            ${letter}. ${opt}
+          </label><br>
+        `;
+      });
+      document.getElementById("options").innerHTML = optionsHTML;
+
+      currIndex = q.index;
+      document.getElementById("result").innerText = "";
+      document.getElementById("brief").innerText = "";
+      document.getElementById("detailed").innerText = "";
+
+      document.getElementById("submitBtn").disabled = false;
+      document.getElementById("briefBtn").disabled = true;
+      document.getElementById("detailedBtn").disabled = true;
     }
+
+    async function submitAnswer() {
+      let selected = document.querySelector('input[name="option"]:checked');
+      if (!selected) {
+        alert("Please select an answer!");
+        return;
+      }
+      let choice = selected.value;
+      let res = await fetch(`/check_answer/${currIndex}/${choice}`);
+      let data = await res.json();
+
+      if (data.is_correct) {
+        document.getElementById("result").innerText = "✅ Correct Answer!";
+      } else {
+        document.getElementById("result").innerText =
+          "❌ Wrong Answer! Correct is: " + data.correct;
+      }
+
+      // Enable explanation buttons after submit
+      document.getElementById("briefBtn").disabled = false;
+      document.getElementById("detailedBtn").disabled = false;
+    }
+
     async function showBrief() {
-      let res = await fetch('/show_brief/' + currIndex);
-      let d = await res.json();
-      document.getElementById('brief').innerText = d.brief;
+      let res = await fetch(`/show_brief/${currIndex}`);
+      let data = await res.json();
+      document.getElementById("brief").innerText = "📌 Brief: " + data.brief;
     }
+
     async function showDetailed() {
-      let res = await fetch('/show_detailed/' + currIndex);
-      let d = await res.json();
-      document.getElementById('detailed').innerText = d.detailed;
+      let res = await fetch(`/show_detailed/${currIndex}`);
+      let data = await res.json();
+      document.getElementById("detailed").innerText = "📖 Detailed: " + data.detailed;
     }
   </script>
 </body>
