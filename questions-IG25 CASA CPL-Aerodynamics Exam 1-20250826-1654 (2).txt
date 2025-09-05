@@ -1,0 +1,301 @@
+The Rudder controls which movement of an aircraft?
+A) pitch
+B) yaw
+C) roll
+D) turn
+ANSWER: B
+What is the definition of an aeroplane’s angle of attack ?
+A) The angle between the direction of flight and longitudinal axis
+B) The angle between the longitudinal axis and the horizontal plane
+C) The angle between the lateral axis and horizontal plane
+D) The angle between the relative airflow and the chordline
+ANSWER: D
+A constant speed propeller is a propeller which
+A) rotates at a constant speed by altering the blade angle
+B) is most efficient at a constant aircraft speed
+C) rotates at a constant speed by varying angle of attack
+D) maintains a constant aircraft speed by altering blade angle
+ANSWER: A
+As fuel is consumed during level flight cruise at high altitude, which of the following factors is correct?
+A) the angle of attack must be increased
+B) the stalling speed will increase
+C) the Centre of Pressure will move forward
+D) induced drag will decrease
+ANSWER: D
+By what percentage does the lift increase in a steady level turn at 45˚ angle of bank compared to straight and level flight?
+A) 41%
+B) 19%
+C) 31%
+D) 52%
+ANSWER: A
+Considering subsonic incompressible airflow through a venturi, which statement is correct?1) The static pressure in the undisturbed airflow is higher than in the throat2) The speed in the undisturbed airflow is lower than in the throat
+A) 1) is incorrect 2) is incorrect
+B) 1) is correct 2) is incorrect
+C) 1) is incorrect 2) is correct
+D) 1) is correct 2) is correct
+ANSWER: D
+During spin recovery, which of the following is correct?
+A) the ailerons are held in the neutral position
+B) the control stick is moved sideways, in the direction of the spin
+C) the control stick is moved sideways, against the direction of the spin
+D) the control stick is pulled fully back
+ANSWER: A
+For a normally stable aeroplane, where is the Centre of Gravity is located ?
+A) aft of the neutral point
+B) with a sufficient minimum margin ahead of the neutral point of the aeroplane
+C) at the neutral point of the aeroplane
+D) between the aft limit and the neutral point of the aeroplane
+ANSWER: B
+How can an aircraft’s tendency to Dutch Roll be reduced ?
+A) reducing the size of the fin
+B) giving the wings anhedral
+C) sweeping the wings
+D) increasing longitudinal dihedral
+ANSWER: B
+How can the range of an aircraft be extended in a tailwind?
+A) By maintaining the same airspeed and reducing power
+B) by maintaining a higher best range airspeed by increasing power
+C) Doing  nothing as the best range speed does not vary with a change in weight
+D) By reducing the weight of the aircraft
+ANSWER: D
+How will a turbulent atmosphere and strong ground winds affect wake turbulence ?
+A) Both will help dissipate the wake turbulence
+B) Both will intensify wake turbulence
+C) The turbulent atmosphere with help dissipate, but the winds will strengthen the wake turbulence
+D) The turbulent atmosphere with strengthen, but the winds will help dissipate the wake turbulence
+ANSWER: A
+If an aircraft has static longitudinal stability, what effect will this have on dynamic stability?
+A) The aircraft will be dynamically stable
+B) The aircraft may or may not be dynamically stable, depending on momentum and damping factors
+C) The aircraft will be dynamically unstable
+D) The aircraft will be dynamically stable only at low speeds
+ANSWER: B
+On a wing fitted with Fowler flaps, the fully extended position will produce which effects?
+A) an increase in wing area only
+B) increase in camber only
+C) increase in camber and wing area
+D) Increase in drag only
+ANSWER: C
+Propeller slip is the difference between which parameters?
+A) geometric pitch and the blade angle
+B) geometric pitch and the effective pitch
+C) plane of rotation and the aircraft’s forward velocity
+D) RPM of the engine and RPM of the propeller
+ANSWER: B
+Referring to the power required curve below, which aeroplane performance parameter will occur at speed Y?[Power Curve]
+A) best air nautical miles per gallon
+B) maximum glide range
+C) minimum total drag
+D) minimum litres per hour
+ANSWER: A
+Stalling speed in a 15˚ angle of bank level turn is 60 knots. What will be the stalling speed in a 45˚angle of bank level turn ?
+A) 60 knots
+B) 85 knots
+C) 70 knots
+D) 83 knots
+ANSWER: C
+The tab in the diagram represents:
+A) a servo tab
+B) a Balance tab
+C) an Anti-Balance tab
+D) a trim tab
+ANSWER: C
+Two identical aircraft, A and B, with the same mass, are flying steady level coordinated 20˚ angle of bank turns. If the TAS of A is 130kt and the TAS of B is 200kt, what effect will this speed difference have?
+A) the load factor of A will be the same as B
+B) the rate of turn of A will be  less than B
+C) the turn radius of A will be more than B
+D) the lift coefficient of A will be  less than B
+ANSWER: A
+What angle of attack is represented by X?
+A) Stalling angle
+B) angle of attack for minimum drag
+C) CL MAX
+D) worst Lift/Drag Ratio
+ANSWER: B
+What angle of attack is represented by X?
+A) CL Max
+B) 4 degrees
+C) 25 degrees
+D) 16 degrees
+ANSWER: A
+What can happen to the aeroplane structure flying at a speed just exceeding Va?
+A) it may break if the elevator is deflected fully up
+B) It may suffer permanent deformation if the elevator is fully deflected upwards
+C) It may suffer permanent deformation because the flight is performed at too large a dynamic pressure
+D) It will collapse if a turn is made
+ANSWER: B
+What control movement occurs when the control column is moved back and to the right?
+A) the elevator goes up, the right aileron goes down
+B) the elevator goes up, the left aileron goes down
+C) the elevator goes down, the right aileron goes down
+D) the elevator goes down, the left aileron goes down
+ANSWER: B
+What defines an  aeroplane’s angle of incidence?
+A) The angle between the longitudinal axis and the horizontal plane
+B) The angle between the chordline and the longitudinal axis
+C) The angle between the speed vector and horizontal plane
+D) The angle between the the chordline and relative airflow
+ANSWER: B
+What does Bernoulli’s Theorem state happens in a perfect and constant airstream?
+A) the sum of potential and kinetic energy is constant
+B) the Dynamic pressure is equal to the static pressure
+C) the dynamic pressure is always greater than static pressure
+D) the sum of dynamic and total pressure is constant
+ANSWER: A
+What effect will a  decrease in weight due to fuel consumption produce?
+A) reduce stalling speed, but the stall angle will be the same
+B) reduce stall speed and the stall angle
+C) reduces the stalling angle and increase stalling speed
+D) has no effect on stall speed or angle
+ANSWER: A
+What effect will Increasing the aspect ratio of a wing have?
+A) An increase in  stall speed
+B) A decrease in  induced drag
+C) An increase in  induced drag
+D) A decrease in  gust load factor
+ANSWER: B
+What is meant by the term Static stability ?
+A) following a disturbance from the equilibrium condition, a force and /or moment is generated that tends to increase the effect of that disturbance
+B) following a disturbance from the equilibrium condition, a force and /or moment is generated that tends to counter the effects of that disturbance
+C) the amplitude of the oscillatory motion of the aircraft tends to decrease over time
+D) the amplitude of the oscillatory motion of the aircraft tends to increase over time
+ANSWER: B
+What is the blade angle of a propeller ?
+A) The angle between: the root chord and the tip chord of the propeller
+B) The angle between the chord and the relative airflow
+C) The angle between the chord of the propeller and the longitudinal axis of the aircraft
+D) The angle between the propeller chord and the plane of rotation
+ANSWER: D
+What is the definition of the Dihedral angle of a wing?
+A) The angle between the wing plane and horizontal with the aeroplane in an unbanked, level condition
+B) The angle between the the leading edge of the wing and the lateral axis
+C) The angle between the the chord of the wing and the lateral axis
+D) The angle between the the chord line and the lateral axis
+ANSWER: A
+What is the definition of Washout?
+A) there is airflow along the wing that keeps it clean
+B) the wing tip has a higher angle of incidence than the root
+C) the wing tip has a lower angle of incidence than the root
+D) the tailplane has a lower angle of attack than the wing
+ANSWER: C
+What is the difference between Leading edge slats and Leading edge flaps?
+A) they are the same
+B) Slats re energise the boundary layer and flaps increase the camber
+C) Leading edge flaps re energise the boundary layer and slats increase the camber
+D) Flaps decrease the stall speed while slats will increase the stall speed
+ANSWER: B
+What is the effect of ice on the wing?
+A) No effect the stalling speed and stalling angle of attack
+B) An increase the stalling speed and an Increase the stalling angle of attack
+C) An Increase the stalling speed and a reduction in the stalling angle of attack
+D) A decrease the stalling speed and an increase the stalling angle of attack
+E) A decrease in the stalling speed and a decrease in the stalling angle of attack
+ANSWER: C
+What is the effect on induced drag of mass and speed changes?
+A) Increases with increasing speed and decreasing mass
+B) Increases with increasing speed and increasing mass
+C) Decreases with decreasing speed and decreasing mass
+D) Decreases with increasing speed and decreasing mass
+ANSWER: D
+What is the main reason for taking off into the wind?
+A) to give a lower takeoff IAS
+B) to give a shorter takeoff run
+C) to keep propeller RPM maximum
+D) to help keep the aircraft straight
+ANSWER: B
+What speed is B on the Drag curve?
+A) Speed for best endurance
+B) Speed for best glide endurance
+C) Speed for best range
+D) Top speed in level flight
+ANSWER: C
+What would be the quickest way to exceed limit load factor on any aircraft?
+A) fly straight and level and abruptly apply full up elevator deflection
+B) fly straight and level and abruptly apply full rudder deflection
+C) fly straight and level and abruptly apply full aileron deflection
+D) Being in a dive at VNE and abruptly apply full up elevator deflection
+ANSWER: D
+When a flight control is fitted with an Anti-Balance tab, in which direction will the tab move relative to the flight control?
+A) move in the same direction as the flight control
+B) move in the opposite direction to the flight control
+C) only move when the trim wheel is moved
+D) makes the control easier to move in flight
+ANSWER: A
+When climbing into a head wind, compared to still air, what will the climb gradient relative to the ground be?
+A) steeper and the rate of climb increased
+B) steeper and the rate of climb unchanged
+C) less steep and the rate of climb increased
+D) the same, and the rate of climb unchanged
+ANSWER: B
+When is Maximum gliding distance of an aircraft is obtained?
+A) when induced drag equals the coefficient of lift
+B) When induced drag and parasite drag are equal
+C) When parasite drag is the least
+D) When parasite drag is greatest
+ANSWER: B
+When roll spoilers are extended, what happens on the part of the wing on which they are mounted?
+A) The wing stalls and this causes a difference in lift between both wings and generates the desired rolling moment
+B) the wing experiences an increase in drag which generates a yawing moment which then generates a rolling motion
+C) The wing experiences a reduction in lift which generates the desired rolling motion. There is also a local increase in drag which suppresses adverse yaw
+D) The wing is forced downwards as a reaction to the increased drag
+ANSWER: C
+When speed is increased in straight and level flight on a positively cambered aerofoil, what happens to the:1) the centre of pressure2) the magnitude of the lift force
+A) 1) moves aft and 2) increases
+B) 1) moves aft and 2) remains constant
+C) 1) moves forward and 2) decreases
+D) 1) moves forward and 2) remains constant
+ANSWER: B
+Which component of the Total reaction is Lift ?
+A) The vertical component of the total aerodynamic force, perpendicular to the relative airflow
+B) The component of the total aerodynamic force, perpendicular to the Mean aerodynamic chord
+C) The component of the total aerodynamic force, perpendicular to the relative airflow
+D) The component of the total aerodynamic force, parallel to the relative airflow
+ANSWER: C
+Which factor will reduce Induced drag ?
+A) an increase in the taper ratio of the wing
+B) an increase in aspect ratio
+C) a decrease in aspect ratio
+D) use of a wing tip with a much thinner aerofoil
+ANSWER: B
+Which of the following statements about the stall of a straight wing aeroplane is correct?
+A) The horizontal tail will stall at a higher speed than the wing
+B) Buffeting is the result of separated flow from the tailplane
+C) The nose down effect is a result of increasing downwash, due to flow separation
+D) Just before the stall the aeroplane will have a nose down tendency
+ANSWER: D
+Which of these statements about stall speed is correct?
+A) Decreasing sweepback increases stall speed
+B) Decreasing sweepback decreases stall speed
+C) Decreasing anhedral decreases stall speed
+D) Increasing anhedral decreases stall speed
+ANSWER: B
+Which three aerodynamic methods decrease maneuvering stick forces?
+A) Servo tab, Trim tab, Horn balance
+B) Servo tab, Spring tab, Trim tab
+C) Spring tab, Servo tab, Balance tab
+D) Spring tab, Horn balance, Mass balance
+ANSWER: C
+Which type of aircraft is more susceptible to crosswind on takeoff?
+A) nose wheel
+B) tricycle
+C) tailwheel
+D) they are the same
+ANSWER: C
+Which type of flap is shown in the diagram?
+A) Fowler flap
+B) Blown flap
+C) Plain flap
+D) Slotted flap
+ANSWER: D
+You are going to use runway 18 and a large passenger jet just landed. Which wind would cause the most concern regarding the wake turbulence?
+A) NW 10 knots
+B) NW 5 knots
+C) SW 10 knots
+D) SW 5 knots
+ANSWER: B
+You are lined up in a light aircraft on a runway on which a B747 has just taken off. The B747 rotated at 4500ft down the runway, and you know that you can rotate at 2500ft down the runway. Should you delay your departure and why?
+A) Yes, as your performance is not as good, so you will still intercept the turbulence
+B) Yes
+C) No, as you are able to get airborne above the turbulence
+D) No
+ANSWER: C
