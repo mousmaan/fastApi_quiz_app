@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+</head>
+<body>
+  <h3 id="question"></h3>
+  <ul id="options"></ul>
+  <button onclick="getQuestion()">Get Random Question</button>
+  <button onclick="showBrief()">Show Brief</button>
+  <button onclick="showDetailed()">Show Detailed</button>
+  <p id="brief"></p>
+  <p id="detailed"></p>
+  <script>
+    let currIndex = 0;
+    async function getQuestion() {
+      let res = await fetch('/random_question');
+      let q = await res.json();
+      document.getElementById('question').innerText = q.question;
+      let options = "";
+      q.options.forEach((o, i) => { options += `<li>${o}</li>`; });
+      document.getElementById('options').innerHTML = options;
+      document.getElementById('brief').innerText = "";
+      document.getElementById('detailed').innerText = "";
+      // Save index if you want to map to the question
+      currIndex = questions.findIndex(ques => ques.question === q.question);
+    }
+    async function showBrief() {
+      let res = await fetch('/show_brief/' + currIndex);
+      let d = await res.json();
+      document.getElementById('brief').innerText = d.brief;
+    }
+    async function showDetailed() {
+      let res = await fetch('/show_detailed/' + currIndex);
+      let d = await res.json();
+      document.getElementById('detailed').innerText = d.detailed;
+    }
+  </script>
+</body>
+</html>
